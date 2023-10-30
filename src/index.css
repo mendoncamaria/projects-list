@@ -2,3 +2,12 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+body {
+  overflow: hidden;
+  margin: 0;
+}
+
+.wrapper {
+  overflow-y: auto;
+  max-height: 100vh;
+}
