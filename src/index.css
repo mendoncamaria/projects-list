@@ -9,5 +9,5 @@ body {
 
 .wrapper {
   overflow-y: auto;
-  max-height: 100vh;
+  height: fit-content;
 }
