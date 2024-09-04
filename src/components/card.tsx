@@ -1,4 +1,8 @@
 import React from 'react';
+import { MdOutlineKeyboardDoubleArrowUp } from 'react-icons/md';
+import { MdOutlineKeyboardDoubleArrowDown } from 'react-icons/md';
+import { FaGithubSquare } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 interface CardProps {
   title: string;
@@ -16,12 +20,12 @@ const Card: React.FC<CardProps> = ({ title, description, language, url }) => {
       <div>
         <p className="text-gray-500 mb-2">{`Language: ${language}`}</p>
       </div>
-      <div className="flex justify-center gap-4">
-        <a href={url} className="text-blue-500 hover:underline" target="_blank">
-          Github
+      <div className="flex justify-center gap-4 items-center">
+        <a href={url} className="text-black-500 hover:underline" target="_blank">
+          <FaGithubSquare size={40} />
         </a>
         <a href={url} className="text-blue-500 hover:underline" target="_blank">
-          Live Link
+          <FaExternalLinkAlt size={25} />
         </a>
       </div>
       <div>
@@ -33,7 +37,14 @@ const Card: React.FC<CardProps> = ({ title, description, language, url }) => {
           onClick={() => setshowDescription(!showDescription)}
           className="text-blue-500 hover:underline"
         >
-          {showDescription ? 'View Less' : 'View More'}
+          <div className="flex items-center">
+            {showDescription ? 'View Less' : 'View More'}
+            {showDescription ? (
+              <MdOutlineKeyboardDoubleArrowUp />
+            ) : (
+              <MdOutlineKeyboardDoubleArrowDown />
+            )}
+          </div>
         </button>
       </div>
     </div>
