@@ -8,10 +8,11 @@ interface CardProps {
   title: string;
   description: string;
   language: string;
-  url: string;
+  liveUrl: string;
+  gitUrl: string;
 }
 
-const Card: React.FC<CardProps> = ({ title, description, language, url }) => {
+const Card: React.FC<CardProps> = ({ title, description, language, liveUrl, gitUrl }) => {
   const [showDescription, setshowDescription] = React.useState(false);
 
   return (
@@ -21,10 +22,10 @@ const Card: React.FC<CardProps> = ({ title, description, language, url }) => {
         <p className="text-gray-500 mb-2">{`Language: ${language}`}</p>
       </div>
       <div className="flex justify-center gap-4 items-center">
-        <a href={url} className="text-black-500 hover:underline" target="_blank">
+        <a href={gitUrl} className="text-black-500 hover:underline" target="_blank">
           <FaGithubSquare size={40} />
         </a>
-        <a href={url} className="text-blue-500 hover:underline" target="_blank">
+        <a href={liveUrl} className="text-blue-500 hover:underline" target="_blank">
           <FaExternalLinkAlt size={25} />
         </a>
       </div>
