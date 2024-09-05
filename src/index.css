@@ -9,5 +9,8 @@ body {
 
 .wrapper {
   overflow-y: auto;
+}
+.height-style {
+  min-height: calc(100vh - 3.5rem);
   height: fit-content;
 }
