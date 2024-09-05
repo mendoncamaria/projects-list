@@ -3,11 +3,16 @@ import { MdOutlineKeyboardDoubleArrowUp } from 'react-icons/md';
 import { MdOutlineKeyboardDoubleArrowDown } from 'react-icons/md';
 import { FaGithubSquare } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import { LanguageIcon } from './languageIcon';
 
+interface Language {
+  name: string;
+  filename: string;
+}
 interface CardProps {
   title: string;
   description: string;
-  language: string;
+  language: Language[];
   liveUrl: string;
   gitUrl: string;
 }
@@ -17,9 +22,9 @@ const Card: React.FC<CardProps> = ({ title, description, language, liveUrl, gitU
 
   return (
     <div className="bg-white rounded-md shadow-md p-6">
-      <h2 className="text-xl font-semibold mb-4 text-center">{title}</h2>
+      <h1 className="text-3xl font-semibold mb-4 text-center">{title}</h1>
       <div>
-        <p className="text-gray-500 mb-2">{`Language: ${language}`}</p>
+        <LanguageIcon languages={language} />
       </div>
       <div className="flex justify-center gap-4 items-center">
         <a href={gitUrl} className="text-black-500 hover:underline" target="_blank">
