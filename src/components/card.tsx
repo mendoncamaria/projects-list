@@ -22,7 +22,7 @@ const Card: React.FC<CardProps> = ({ title, description, language, liveUrl, gitU
 
   return (
     <div className="bg-white rounded-md shadow-md p-6">
-      <h1 className="text-3xl font-semibold mb-4 text-center">{title}</h1>
+      <h1 className="text-3xl font-semibold font-serif mb-4 text-center">{title}</h1>
       <div>
         <LanguageIcon languages={language} />
       </div>
@@ -35,7 +35,7 @@ const Card: React.FC<CardProps> = ({ title, description, language, liveUrl, gitU
         </a>
       </div>
       <div>
-        <p className="text-gray-600 mb-2">
+        <p className="text-gray-600 mb-2 font-serif">
           {showDescription ? description : ''}
         </p>
 
