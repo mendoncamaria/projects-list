@@ -137,4 +137,160 @@ export const cardsData = [
     liveUrl: 'https://temperatureconverter-mendoncamaria.netlify.app/',
     gitUrl: 'https://github.com/mendoncamaria/temperature-conversion',
   },
+  // {
+  //   title: 'Chatbot',
+  //   description: 'Chatbot',
+  //   language: [
+  //     { name: 'Astro', filename: ASTRO },
+  //     {
+  //       name: 'Netlify',
+  //       filename: NETLIFY,
+  //     },
+  //   ],
+  //   liveUrl: '',
+  //   gitUrl: '',
+  // },
+  // {
+  //   title: 'City Map',
+  //   description: 'City Map',
+  //   language: [
+  //     { name: 'Astro', filename: ASTRO },
+  //     {
+  //       name: 'Netlify',
+  //       filename: NETLIFY,
+  //     },
+  //   ],
+  //   liveUrl: '',
+  //   gitUrl: 'https://github.com/mendoncamaria/city-map',
+  // },
+  // {
+  //   title: 'Login Page',
+  //   description: 'Login Page',
+  //   language: [
+  //     { name: 'Astro', filename: ASTRO },
+  //     {
+  //       name: 'Netlify',
+  //       filename: NETLIFY,
+  //     },
+  //   ],
+  //   liveUrl: '',
+  //   gitUrl: 'https://github.com/mendoncamaria/login-page',
+  // },
+  // {
+  //   title: 'Wedding RSVP 1',
+  //   description: 'Wedding RSVP 1',
+  //   language: [
+  //     { name: 'Astro', filename: ASTRO },
+  //     {
+  //       name: 'Netlify',
+  //       filename: NETLIFY,
+  //     },
+  //   ],
+  //   liveUrl: '',
+  //   gitUrl: 'https://github.com/mendoncamaria/wedding-invite-one',
+  // },
+  // {
+  //   title: 'Myntra Clone',
+  //   description: 'Myntra Clone',
+  //   language: [
+  //     { name: 'Astro', filename: ASTRO },
+  //     {
+  //       name: 'Netlify',
+  //       filename: NETLIFY,
+  //     },
+  //   ],
+  //   liveUrl: '',
+  //   gitUrl: 'https://github.com/mendoncamaria/shopping-app',
+  // },
+  // {
+  //   title: 'Birthday Card',
+  //   description: 'Birthday Card',
+  //   language: [
+  //     { name: 'Astro', filename: ASTRO },
+  //     {
+  //       name: 'Netlify',
+  //       filename: NETLIFY,
+  //     },
+  //   ],
+  //   liveUrl: '',
+  //   gitUrl: 'https://github.com/mendoncamaria/birthday-card',
+  // },
+  // {
+  //   title: 'URL Shortner',
+  //   description: 'URL Shortner',
+  //   language: [
+  //     { name: 'Astro', filename: ASTRO },
+  //     {
+  //       name: 'Netlify',
+  //       filename: NETLIFY,
+  //     },
+  //   ],
+  //   liveUrl: '',
+  //   gitUrl: 'https://github.com/mendoncamaria/url-shortner',
+  // },
+  // {
+  //   title: 'Spotify Clone',
+  //   description: 'Music Player (Spotify Clone)',
+  //   language: [
+  //     { name: 'Astro', filename: ASTRO },
+  //     {
+  //       name: 'Netlify',
+  //       filename: NETLIFY,
+  //     },
+  //   ],
+  //   liveUrl: '',
+  //   gitUrl: 'https://github.com/mendoncamaria/music-app',
+  // },
+  // {
+  //   title: 'Mini Projects Dashboard',
+  //   description: 'Mini Projects Dashboard',
+  //   language: [
+  //     { name: 'Astro', filename: ASTRO },
+  //     {
+  //       name: 'Netlify',
+  //       filename: NETLIFY,
+  //     },
+  //   ],
+  //   liveUrl: '',
+  //   gitUrl: 'https://github.com/mendoncamaria/react-mini-projects',
+  // },
+  // {
+  //   title: 'Calculator',
+  //   description: 'Calculator',
+  //   language: [
+  //     { name: 'Astro', filename: ASTRO },
+  //     {
+  //       name: 'Netlify',
+  //       filename: NETLIFY,
+  //     },
+  //   ],
+  //   liveUrl: '',
+  //   gitUrl: 'https://github.com/mendoncamaria/calculator',
+  // },
+  // {
+  //   title: 'Image Gallery',
+  //   description: 'Image Gallery',
+  //   language: [
+  //     { name: 'Astro', filename: ASTRO },
+  //     {
+  //       name: 'Netlify',
+  //       filename: NETLIFY,
+  //     },
+  //   ],
+  //   liveUrl: '',
+  //   gitUrl: '',
+  // },
+  // {
+  //   title: 'Tech Blog',
+  //   description: 'Tech Blog',
+  //   language: [
+  //     { name: 'Astro', filename: ASTRO },
+  //     {
+  //       name: 'Netlify',
+  //       filename: NETLIFY,
+  //     },
+  //   ],
+  //   liveUrl: '',
+  //   gitUrl: 'https://github.com/mendoncamaria/temperature-conversion',
+  // },
 ];
