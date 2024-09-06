@@ -13,26 +13,6 @@ import VERCEL from '../assets/vercel.svg';
 
 export const cardsData = [
   {
-    title: 'Todo List',
-    description: 'Todo List',
-    language: [
-      {
-        name: 'React',
-        filename: REACT,
-      },
-      {
-        name: 'Firebase',
-        filename: FIREBASE,
-      },
-      {
-        name: 'Netlify',
-        filename: NETLIFY,
-      },
-    ],
-    liveUrl: 'https://mariamendonca-todo-app.netlify.app/',
-    gitUrl: 'https://github.com/mendoncamaria/todo-app-react',
-  },
-  {
     title: 'Portfolio',
     description: 'Portfolio',
     language: [
@@ -53,10 +33,50 @@ export const cardsData = [
     gitUrl: 'https://github.com/mendoncamaria/portfolio-next',
   },
   {
+    title: 'Projects List',
+    description: 'Projects List(This Project)',
+    language: [
+      {
+        name: 'Typescript',
+        filename: TYPESCRIPT,
+      },
+      {
+        name: 'Tailwind',
+        filename: TAILWIND,
+      },
+      {
+        name: 'Vercel',
+        filename: VERCEL,
+      },
+    ],
+    liveUrl: '',
+    gitUrl: 'https://github.com/mendoncamaria/projects-list',
+  },
+  {
+    title: 'Todo List',
+    description: 'Todo List',
+    language: [
+      {
+        name: 'React',
+        filename: REACT,
+      },
+      {
+        name: 'Firebase',
+        filename: FIREBASE,
+      },
+      {
+        name: 'Netlify',
+        filename: NETLIFY,
+      },
+    ],
+    liveUrl: 'https://mariamendonca-todo-app.netlify.app/',
+    gitUrl: 'https://github.com/mendoncamaria/todo-app-react',
+  },
+  {
     title: 'Weather',
     description: 'Weather',
     language: [
-      { name: 'ReactJS', filename: REACT },
+      { name: 'React', filename: REACT },
       {
         name: 'Vercel',
         filename: VERCEL,
@@ -82,7 +102,7 @@ export const cardsData = [
     title: 'Quiz',
     description: 'Quiz',
     language: [
-      { name: 'ReactJS', filename: REACT },
+      { name: 'React', filename: REACT },
       {
         name: 'Vercel',
         filename: VERCEL,
@@ -95,7 +115,7 @@ export const cardsData = [
     title: 'Gradient background',
     description: 'Gradient background',
     language: [
-      { name: 'ReactJS', filename: REACT },
+      { name: 'React', filename: REACT },
       {
         name: 'Netlify',
         filename: NETLIFY,
@@ -108,7 +128,7 @@ export const cardsData = [
     title: 'Temperature Conversion',
     description: 'Temperature Conversion',
     language: [
-      { name: 'ReactJS', filename: REACT },
+      { name: 'React', filename: REACT },
       {
         name: 'Netlify',
         filename: NETLIFY,
