@@ -9,7 +9,7 @@ const LanguageIcon: React.FC<{ languages: Language[] }> = ({ languages }) => {
   return (
     <div className="flex gap-2 items-center">
       <h3 className="text-gray-700 font-semibold">I'm built using</h3>
-      <div className="flex gap-1">
+      <div className="flex gap-1 flex-wrap">
         {languages.map((language) => (
           <span
             key={language.filename}
