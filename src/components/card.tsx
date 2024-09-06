@@ -3,7 +3,7 @@ import { MdOutlineKeyboardDoubleArrowUp } from 'react-icons/md';
 import { MdOutlineKeyboardDoubleArrowDown } from 'react-icons/md';
 import { FaGithubSquare } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
-import { LanguageIcon } from './languageIcon';
+import LanguageIcon from './languageIcon';
 
 interface Language {
   name: string;
@@ -21,16 +21,16 @@ const Card: React.FC<CardProps> = ({ title, description, language, liveUrl, gitU
   const [showDescription, setshowDescription] = React.useState(false);
 
   return (
-    <div className="bg-white rounded-md shadow-md p-6">
+    <div className="bg-white rounded-md shadow-md p-6 flex flex-col gap-4">
       <h1 className="text-3xl font-semibold font-serif mb-4 text-center">{title}</h1>
-      <div>
+      <div className="flex justify-center items-center">
         <LanguageIcon languages={language} />
       </div>
-      <div className="flex justify-center gap-4 items-center">
+      <div className="flex justify-center gap-5 items-center">
         <a href={gitUrl} className="text-black-500 hover:underline" target="_blank">
           <FaGithubSquare size={40} />
         </a>
-        <a href={liveUrl} className="text-blue-500 hover:underline" target="_blank">
+        <a href={liveUrl ?? ''} className="text-blue-500 hover:underline" target="_self">
           <FaExternalLinkAlt size={25} />
         </a>
       </div>
