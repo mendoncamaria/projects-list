@@ -137,6 +137,14 @@ export const cardsData = [
     liveUrl: 'https://temperatureconverter-mendoncamaria.netlify.app/',
     gitUrl: 'https://github.com/mendoncamaria/temperature-conversion',
   },
+  {
+    title: 'Web Scraper',
+    description: 'Temperature Conversion',
+    language: [
+      { name: 'Go', filename: REACT },
+    ],
+    gitUrl: 'https://github.com/mendoncamaria/web-scraper-go',
+  },
   // {
   //   title: 'Chatbot',
   //   description: 'Chatbot',
