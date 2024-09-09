@@ -13,7 +13,7 @@ interface CardProps {
   title: string;
   description: string;
   language: Language[];
-  liveUrl: string;
+  liveUrl?: string;
   gitUrl: string;
 }
 
@@ -30,9 +30,9 @@ const Card: React.FC<CardProps> = ({ title, description, language, liveUrl, gitU
         <a href={gitUrl} className="text-black-500 hover:underline" target="_blank">
           <FaGithubSquare size={40} />
         </a>
-        <a href={liveUrl ?? ''} className="text-blue-500 hover:underline" target="_self">
+        {liveUrl ? <a href={liveUrl ?? ''} className="text-blue-500 hover:underline" target="_self">
           <FaExternalLinkAlt size={25} />
-        </a>
+        </a> : null}
       </div>
       <div>
         <p className="text-gray-600 mb-2 font-serif">
