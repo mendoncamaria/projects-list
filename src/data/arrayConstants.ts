@@ -223,19 +223,19 @@ export const cardsData = [
   //   liveUrl: '',
   //   gitUrl: 'https://github.com/mendoncamaria/birthday-card',
   // },
-  // {
-  //   title: 'URL Shortner',
-  //   description: 'URL Shortner',
-  //   language: [
-  //     { name: 'Astro', filename: ASTRO },
-  //     {
-  //       name: 'Netlify',
-  //       filename: NETLIFY,
-  //     },
-  //   ],
-  //   liveUrl: '',
-  //   gitUrl: 'https://github.com/mendoncamaria/url-shortner',
-  // },
+  {
+    title: 'URL Shortner',
+    description: 'URL Shortner',
+    language: [
+      { name: 'Go', filename: NEXTJS },
+      {
+        name: 'NextJS',
+        filename: NEXTJS,
+      },
+    ],
+    liveUrl: '',
+    gitUrl: 'https://github.com/mendoncamaria/url-shortner',
+  },
   // {
   //   title: 'Spotify Clone',
   //   description: 'Music Player (Spotify Clone)',
