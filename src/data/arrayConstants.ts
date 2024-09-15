@@ -145,6 +145,19 @@ export const cardsData = [
     ],
     gitUrl: 'https://github.com/mendoncamaria/web-scraper-go',
   },
+  {
+    title: 'URL Shortner',
+    description: 'URL Shortner',
+    language: [
+      { name: 'Go', filename: NEXTJS },
+      {
+        name: 'NextJS',
+        filename: NEXTJS,
+      },
+    ],
+    liveUrl: '',
+    gitUrl: 'https://github.com/mendoncamaria/url-shortner',
+  },
   // {
   //   title: 'Chatbot',
   //   description: 'Chatbot',
@@ -223,19 +236,6 @@ export const cardsData = [
   //   liveUrl: '',
   //   gitUrl: 'https://github.com/mendoncamaria/birthday-card',
   // },
-  {
-    title: 'URL Shortner',
-    description: 'URL Shortner',
-    language: [
-      { name: 'Go', filename: NEXTJS },
-      {
-        name: 'NextJS',
-        filename: NEXTJS,
-      },
-    ],
-    liveUrl: '',
-    gitUrl: 'https://github.com/mendoncamaria/url-shortner',
-  },
   // {
   //   title: 'Spotify Clone',
   //   description: 'Music Player (Spotify Clone)',

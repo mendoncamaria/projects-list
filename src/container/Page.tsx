@@ -15,7 +15,7 @@ export default function Page() {
               <div key={index} className="w-full sm:w-1/2 md:w-1/4 p-2">
                 <Card {...card} />
               </div>
-            ))}
+            )).reverse()}
           </div>
         </div>
       </div>
