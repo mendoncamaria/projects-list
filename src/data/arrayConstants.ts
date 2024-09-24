@@ -158,6 +158,15 @@ export const cardsData = [
     liveUrl: '',
     gitUrl: 'https://github.com/mendoncamaria/url-shortner',
   },
+  {
+    title: 'Rest API',
+    description: 'CRUD using RestAPI and MongoDB',
+    language: [
+      { name: 'Go', filename: NEXTJS },
+    ],
+    liveUrl: '',
+    gitUrl: 'https://github.com/mendoncamaria/rest-api-go',
+  },
   // {
   //   title: 'Chatbot',
   //   description: 'Chatbot',
