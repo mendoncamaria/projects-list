@@ -69,7 +69,7 @@ export const cardsData = [
         filename: NETLIFY,
       },
     ],
-    liveUrl: 'https://mariamendonca-todo-app.netlify.app/',
+    liveUrl: 'https://todolist-mm.netlify.app/',
     gitUrl: 'https://github.com/mendoncamaria/todo-app-react',
   },
   {
@@ -121,7 +121,7 @@ export const cardsData = [
         filename: NETLIFY,
       },
     ],
-    liveUrl: 'https://gradientbackground-mendoncamaria.netlify.app/',
+    liveUrl: 'https://gradientbackground-mm.netlify.app/',
     gitUrl: 'https://github.com/mendoncamaria/gradient-background',
   },
   {
@@ -134,7 +134,7 @@ export const cardsData = [
         filename: NETLIFY,
       },
     ],
-    liveUrl: 'https://temperatureconverter-mendoncamaria.netlify.app/',
+    liveUrl: 'https://temperatureconverter-mm.netlify.app/',
     gitUrl: 'https://github.com/mendoncamaria/temperature-conversion',
   },
   {
@@ -242,7 +242,7 @@ export const cardsData = [
   //       filename: NETLIFY,
   //     },
   //   ],
-  //   liveUrl: '',
+  //   liveUrl: 'https://birthdaycard-mm.netlify.app/',
   //   gitUrl: 'https://github.com/mendoncamaria/birthday-card',
   // },
   // {
