@@ -167,6 +167,19 @@ export const cardsData = [
     liveUrl: '',
     gitUrl: 'https://github.com/mendoncamaria/rest-api-go',
   },
+  {
+    title: 'Mortgage Calculator',
+    description: 'Mortgage Calculator',
+    language: [
+      { name: 'ReactJS', filename: REACT },
+      {
+        name: 'Netlify',
+        filename: NETLIFY,
+      },
+    ],
+    liveUrl: 'https://mortgage-calculator-mm.netlify.app/',
+    gitUrl: 'https://github.com/mendoncamaria/mortgage-calculator',
+  },
   // {
   //   title: 'Chatbot',
   //   description: 'Chatbot',
