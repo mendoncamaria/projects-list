@@ -190,8 +190,8 @@ export const cardsData = [
         filename: VERCEL,
       },
     ],
-    liveUrl: '',
-    gitUrl: 'https://github.com/mendoncamaria/temperature-conversion',
+    liveUrl: 'https://virtualkeyboard-mm.vercel.app/',
+    gitUrl: 'https://github.com/mendoncamaria/virtual-keyboard',
   },
   // {
   //   title: 'Chatbot',
