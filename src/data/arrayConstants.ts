@@ -180,6 +180,19 @@ export const cardsData = [
     liveUrl: 'https://mortgage-calculator-mm.netlify.app/',
     gitUrl: 'https://github.com/mendoncamaria/mortgage-calculator',
   },
+  {
+    title: 'Virtual Calculator',
+    description: 'Virtual Calculator',
+    language: [
+      { name: 'TypeScript', filename: TYPESCRIPT },
+      {
+        name: 'Vercel',
+        filename: VERCEL,
+      },
+    ],
+    liveUrl: '',
+    gitUrl: 'https://github.com/mendoncamaria/temperature-conversion',
+  },
   // {
   //   title: 'Chatbot',
   //   description: 'Chatbot',
