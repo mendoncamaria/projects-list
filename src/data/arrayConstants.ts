@@ -181,8 +181,8 @@ export const cardsData = [
     gitUrl: 'https://github.com/mendoncamaria/mortgage-calculator',
   },
   {
-    title: 'Virtual Calculator',
-    description: 'Virtual Calculator',
+    title: 'Virtual Keyboard',
+    description: 'Virtual Keyboard',
     language: [
       { name: 'TypeScript', filename: TYPESCRIPT },
       {
