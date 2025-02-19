@@ -193,6 +193,19 @@ export const cardsData = [
     liveUrl: 'https://virtualkeyboard-mm.vercel.app/',
     gitUrl: 'https://github.com/mendoncamaria/virtual-keyboard',
   },
+    {
+    title: 'Recipe Finder',
+    description: 'Recipe Finder',
+    language: [
+      { name: 'React', filename: REACT },
+      {
+        name: 'Vercel',
+        filename: VERCEL,
+      },
+    ],
+    liveUrl: 'https://recipefinder-mm.vercel.app/',
+    gitUrl: 'https://github.com/mendoncamaria/recipe-finder',
+  },
   // {
   //   title: 'Chatbot',
   //   description: 'Chatbot',
