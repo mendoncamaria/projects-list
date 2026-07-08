@@ -1,8 +1,5 @@
 import React from 'react';
-import { MdOutlineKeyboardDoubleArrowUp } from 'react-icons/md';
-import { MdOutlineKeyboardDoubleArrowDown } from 'react-icons/md';
-import { FaGithubSquare } from "react-icons/fa";
-import { FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithubSquare, FaExternalLinkAlt } from "react-icons/fa";
 import LanguageIcon from './languageIcon';
 
 interface Language {
@@ -43,14 +40,6 @@ const Card: React.FC<CardProps> = ({ title, description, language, liveUrl, gitU
           onClick={() => setshowDescription(!showDescription)}
           className="text-blue-500 hover:underline"
         >
-          <div className="flex items-center">
-            {showDescription ? 'View Less' : 'View More'}
-            {showDescription ? (
-              <MdOutlineKeyboardDoubleArrowUp />
-            ) : (
-              <MdOutlineKeyboardDoubleArrowDown />
-            )}
-          </div>
         </button>
       </div>
     </div>
