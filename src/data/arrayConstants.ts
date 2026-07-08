@@ -140,9 +140,7 @@ export const cardsData = [
   {
     title: 'Web Scraper',
     description: 'Temperature Conversion',
-    language: [
-      { name: 'Go', filename: REACT },
-    ],
+    language: [{ name: 'Go', filename: REACT }],
     gitUrl: 'https://github.com/mendoncamaria/web-scraper-go',
   },
   {
@@ -161,9 +159,7 @@ export const cardsData = [
   {
     title: 'Rest API',
     description: 'CRUD using RestAPI and MongoDB',
-    language: [
-      { name: 'Go', filename: NEXTJS },
-    ],
+    language: [{ name: 'Go', filename: NEXTJS }],
     liveUrl: '',
     gitUrl: 'https://github.com/mendoncamaria/rest-api-go',
   },
@@ -193,7 +189,7 @@ export const cardsData = [
     liveUrl: 'https://virtualkeyboard-mm.vercel.app/',
     gitUrl: 'https://github.com/mendoncamaria/virtual-keyboard',
   },
-    {
+  {
     title: 'Recipe Finder',
     description: 'Recipe Finder',
     language: [
@@ -205,6 +201,163 @@ export const cardsData = [
     ],
     liveUrl: 'https://recipefinder-mm.vercel.app/',
     gitUrl: 'https://github.com/mendoncamaria/recipe-finder',
+  },
+  {
+    title: 'Todo List',
+    description: 'Todo List TS',
+    language: [
+      { name: 'Typescript', filename: REACT },
+      { name: 'Firebase', filename: FIREBASE },
+      {
+        name: 'Netlify',
+        filename: NETLIFY,
+      },
+    ],
+    liveUrl: 'https://todolist-mm-ts.netlify.app/',
+    gitUrl: 'https://github.com/mendoncamaria/todo-list-ts',
+  },
+  {
+    title: 'Coin Flip Game',
+    description: 'Coin Flip Game',
+    language: [
+      { name: 'Typescript', filename: REACT },
+      {
+        name: 'Netlify',
+        filename: NETLIFY,
+      },
+    ],
+    liveUrl: 'https://coinflip-mm.netlify.app/',
+    gitUrl: 'https://github.com/mendoncamaria/coin-flip',
+  },
+  {
+    title: 'Login Page',
+    description: 'Login Page',
+    language: [
+      { name: 'React', filename: VERCEL },
+      {
+        name: 'Netlify',
+        filename: NETLIFY,
+      },
+    ],
+    liveUrl: 'https://loginpage-mm.netlify.app/',
+    gitUrl: 'https://github.com/mendoncamaria/login-page',
+  },
+  {
+    title: 'Speed Typing Tester',
+    description: 'Speed Typing Tester',
+    language: [
+      { name: 'Typescript', filename: VERCEL },
+      {
+        name: 'Netlify',
+        filename: NETLIFY,
+      },
+    ],
+    liveUrl: 'https://speedtyping-mm.netlify.app/',
+    gitUrl: 'https://github.com/mendoncamaria/typing-speed-tester',
+  },
+  {
+    title: 'Image Compressor',
+    description: 'Image Compressor',
+    language: [
+      { name: 'Typescript', filename: VERCEL },
+      {
+        name: 'Netlify',
+        filename: NETLIFY,
+      },
+    ],
+    liveUrl: 'https://imagecompressor-mm.netlify.app/',
+    gitUrl: 'https://github.com/mendoncamaria/image-compress-slider',
+  },
+  {
+    title: 'Joke n Quote Generator',
+    description: 'Joke n Quote Generator',
+    language: [
+      { name: 'Typescript', filename: VERCEL },
+      {
+        name: 'Netlify',
+        filename: NETLIFY,
+      },
+    ],
+    liveUrl: 'https://jokequotegenerator-mm.netlify.app/',
+    gitUrl: 'https://github.com/mendoncamaria/Multi-Generator',
+  },
+  {
+    title: 'Birthday Card',
+    description: 'Birthday Card',
+    language: [
+      { name: 'TS', filename: VERCEL },
+      {
+        name: 'Netlify',
+        filename: NETLIFY,
+      },
+    ],
+    liveUrl: 'https://birthdaycard-mm.netlify.app/',
+    gitUrl: 'https://github.com/mendoncamaria/birthday-card',
+  },
+  {
+    title: 'Infosurvey',
+    description: 'Infosurvey',
+    language: [
+      { name: 'TS', filename: VERCEL },
+      {
+        name: 'Vercel',
+        filename: NETLIFY,
+      },
+    ],
+    liveUrl: 'https://infosurvey-mm.vercel.app/',
+    gitUrl: 'https://github.com/mendoncamaria/survey',
+  },
+  {
+    title: 'Currency Converter',
+    description: 'Currency Converter',
+    language: [
+      { name: 'TS', filename: VERCEL },
+      {
+        name: 'Vercel',
+        filename: NETLIFY,
+      },
+    ],
+    liveUrl: 'https://currencyconverter-mm.vercel.app/',
+    gitUrl: 'https://github.com/mendoncamaria/currency-converter',
+  },
+  {
+    title: 'Music Player',
+    description: 'Music Player',
+    language: [
+      { name: 'TS', filename: VERCEL },
+      {
+        name: 'Vercel',
+        filename: NETLIFY,
+      },
+    ],
+    liveUrl: 'https://musicapp-mendoncamaria.vercel.app/',
+    gitUrl: 'https://github.com/mendoncamaria/music-app',
+  },
+  {
+    title: 'CCO Cover Letter',
+    description: 'CCO Letter - Created as part of Job application',
+    language: [
+      { name: 'HTML', filename: VERCEL },
+      {
+        name: 'Vercel',
+        filename: NETLIFY,
+      },
+    ],
+    liveUrl: 'https://chocolate-ops.vercel.app/',
+    gitUrl: 'https://github.com/mendoncamaria/cco-cover-letter',
+  },
+  {
+    title: 'Mini Dictionary',
+    description: 'Mini Dictionary',
+    language: [
+      { name: 'TS', filename: VERCEL },
+      {
+        name: 'Vercel',
+        filename: NETLIFY,
+      },
+    ],
+    liveUrl: 'https://dictionary-mm.vercel.app/',
+    gitUrl: 'https://github.com/mendoncamaria/dictionary-app',
   },
   // {
   //   title: 'Chatbot',
@@ -231,19 +384,6 @@ export const cardsData = [
   //   ],
   //   liveUrl: '',
   //   gitUrl: 'https://github.com/mendoncamaria/city-map',
-  // },
-  // {
-  //   title: 'Login Page',
-  //   description: 'Login Page',
-  //   language: [
-  //     { name: 'Astro', filename: ASTRO },
-  //     {
-  //       name: 'Netlify',
-  //       filename: NETLIFY,
-  //     },
-  //   ],
-  //   liveUrl: '',
-  //   gitUrl: 'https://github.com/mendoncamaria/login-page',
   // },
   // {
   //   title: 'Wedding RSVP 1',
